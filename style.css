@@ -121,6 +121,9 @@ margin-left:  25px;
   margin-left: 86px;
   line-height: 97px;
 }
+.smallboxtextchange:hover {
+text-decoration: none;
+}
 .smallboxtext_margin {
   margin-top: 25px;
 }
@@ -129,7 +132,13 @@ margin-left:  25px;
   width: 354px;
   font-size: 19px;
 }
+.buttons:hover {
+    background-color: hsl(245, 75%, 66%);
+}
 .last_button {
   font-size: 17px;
+}
+.last_button:hover {
+  color: black;
 }
 }
