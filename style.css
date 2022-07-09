@@ -1,0 +1,135 @@
+body {
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.img {
+  background-image: url(images/illustration-hero.svg);
+  height: 160px;
+  width: 327px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 20px 20px 0px 0px;
+}
+main {
+  margin: 71px auto;
+  height: 567px;
+  width: 326px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  width: 277px;
+  height: 81px;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 33px;
+  color: black;
+}
+  .main_text {
+    margin: 16px 41px 26px;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+    hyphens: auto;
+}
+.smallboxtext_margin {
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+.smallboxtext_margin2 {
+  margin-top: 5px;
+  color: hsl(224, 23%, 55%);
+
+}
+.smallboxtext {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 85px;
+margin-right: 21px;
+margin-left:  -2px;
+}
+.smallboxtextchange {
+  display: flex;
+  text-align: center;
+  line-height: 84px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.buttons {
+  display: block;
+  margin: 25px auto;
+  width: 280px;
+  height: 51px;
+  border-radius: 10px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+}
+.last_button {
+  background: white;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+}
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+}
+main {
+  margin: 102px auto;
+  height: 700px;
+  width: 450px;
+}
+.img {
+  background-image: url(images/illustration-hero.svg);
+  height: 220px;
+  width: 450px;
+}
+h1 {
+  margin-top: 53px;
+  font-size: 30px;
+}
+.main_text {
+  margin: 19px 74px 21px;
+}
+.container {
+  justify-content: flex-start;
+  width: 355px;
+  height: 98px;
+}
+.smallboxtext {
+margin-right: 22px;
+margin-left:  25px;
+}
+.smallboxtextchange {
+  margin-left: 86px;
+  line-height: 97px;
+}
+.smallboxtext_margin {
+  margin-top: 25px;
+}
+.buttons {
+  margin: 33px auto;
+  width: 354px;
+  font-size: 19px;
+}
+.last_button {
+  font-size: 17px;
+}
+}
